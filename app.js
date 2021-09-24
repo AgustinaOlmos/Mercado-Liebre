@@ -15,10 +15,13 @@ app.get('/', (req, res) =>{
     res.sendFile(fileToSend)
     //res.sendFile(path.join(__dirname,'/views/home.html'))
 })
-/* app.get('/register', (req, res) =>{
+
+
+/* app.get('/crear-cuenta', (req, res) =>{
     res.sendFile(path.join(__dirname, '/views/register.html'))
 })
-
-app.post('/register', (req, res) =>{
+app.post('/crear-cuenta', (req, res) =>{
     res.redirect('/')
 }) */
+
+

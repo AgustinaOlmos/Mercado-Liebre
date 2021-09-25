@@ -17,6 +17,12 @@ app.get('/register', (req, res) =>{
 app.post('/registro', (req, res) => {
     res.redirect('/');
 });
+app.get('/login', (req, res) =>{
+    res.sendFile(path.join(__dirname,'/views/login.html'))
+})
+app.post('/ingreso', (req, res) => {
+    res.redirect('/');
+});
 
 // Escuchar peticiones
 app.listen(3000, () => {

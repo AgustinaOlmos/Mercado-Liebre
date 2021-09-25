@@ -13,10 +13,8 @@ app.get('/', (req, res) =>{
 })
 app.get('/register', (req, res) =>{
     res.sendFile(path.join(__dirname,'/views/register.html'))
-
 })
-app.post('/register', (req, res) => {
-    console.log(req.body);
+app.post('/registro', (req, res) => {
     res.redirect('/');
 });
 

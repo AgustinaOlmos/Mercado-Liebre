@@ -154,6 +154,7 @@ footer {
   background-color: white;
   width: 98vw;
   margin: auto;
+  margin-top: 50px;
 }
 .container-footer {
   text-align: center;
@@ -179,14 +180,13 @@ footer {
   color: grey;
 }
 .copy-footer {
-  padding-bottom: 10px;
-  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px 10px 10px;
 }
 .copy-footer p {
-  text-align: left;
-  font-size: 12px;
-  color: grey;
-  margin-top: 40px;
+  font-size: 10px;
+  margin: 0;
 }
 
 /*---------------- MEDIA QUERIES ------------------*/
@@ -249,6 +249,9 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .title-products {
+    margin: 16px 0 16px 36px;
+  }
   .products {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 45%;
@@ -257,6 +260,9 @@ footer {
   /* FOOTER */
   .container-footer {
     flex-direction: row;
+  }
+  .copy-footer {
+    justify-content: flex-end;
   }
 }
 
@@ -315,6 +321,9 @@ footer {
     justify-content: space-around;
     align-items: center;
   }
+  .title-products {
+    margin: 40px 0px 20px 50px;
+  }
   .products {
     width: 20%;
   }
@@ -324,6 +333,7 @@ footer {
   .discount {
     width: 50%;
   }
+
   /* FOOTER */
   .item-footer {
     font-size: 15px;
@@ -334,9 +344,5 @@ footer {
   .item-footer p {
     font-size: 14px;
     padding: 5px 31px;
-  }
-  .copy-footer p {
-    font-size: 14px;
-    margin-top: 20px;
   }
 }

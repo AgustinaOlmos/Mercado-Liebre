@@ -75,7 +75,7 @@ a {
 }
 .main-navbar {
   display: none;
-}
+}/* 
 .main-navbar ul {
   list-style: none;
 }
@@ -89,7 +89,7 @@ a {
 
 .main-navbar a:active {
   text-decoration: underline double var(--grisOscuro);
-}
+} */
 
 /*---------------- BANNER ------------------*/
 #container-banner img {
@@ -242,13 +242,21 @@ footer {
     margin-top: 30px;
   }
   .main-navbar a {
-    font-size: 14px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+  }
+  .main-navbar a:active {
+    text-decoration: underline double var(--grisOscuro);
   }
   .right-navbar i {
     margin-left: 5px;
   }
   .main-navbar ul {
     display: flex;
+    list-style: none;
   }
   .main-navbar li {
     margin: 0 5px;

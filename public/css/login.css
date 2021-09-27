@@ -28,4 +28,8 @@
     margin: 0 0 20px 0;
     margin-bottom: 20px;
   }
+  
+  button[type=submit]:hover{
+    background-color:var(--azulClaro);
+  }
 }

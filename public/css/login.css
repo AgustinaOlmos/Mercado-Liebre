@@ -17,6 +17,9 @@
   .container-btn {
     margin: 0;
   }
+  .btn {
+    width: 60%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -29,7 +32,7 @@
     margin-bottom: 20px;
   }
   
-  button[type=submit]:hover{
+  button[type="submit"]:hover{
     background-color:var(--azulClaro);
   }
 }

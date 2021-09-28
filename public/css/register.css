@@ -69,10 +69,10 @@ div.container-interests div {
   margin-top: 20px;
 }
 
-button[type=submit]{
+button[type="submit"]{
   background-color: var(--celeste);
 }
-button[type=reset]{
+button[type="reset"]{
   background-color: rgb(184, 53, 86); 
 }
 
@@ -147,16 +147,18 @@ footer{
   }
   .btn {
     padding: 10px 0;
-    transition: all 0.5s;
+    transition: all 0.8s;
   }
   
   .btn:hover{
     box-shadow: 0 5px 16px rgb(0 0 0);
   }
-  button[type=submit]:hover{
+  button[type="submit"]:hover{
     background-color:var(--azulClaro);
   }
-  button[type=reset]:hover{
+  button[type="reset"]:hover{
     background-color: rgb(145, 16, 23); 
   }
+
+
 }

@@ -1,9 +1,7 @@
 const express = require('express')
 const path = require('path')
-
 // Crear el servidor de express
 const app = express()
-
 // Directorio Publico
 app.use(express.static('public'))
 
@@ -25,6 +23,6 @@ app.post('/ingreso', (req, res) => {
 });
 
 // Escuchar peticiones
-app.listen(3000, () => {
-    console.log('Servidor Express corriendo en: ', 'http://localhost:3000')
+app.listen(process.env.PORT || 3000, function() {
+    console.log('Servidor corriendo en el puerto 3000')
 })
